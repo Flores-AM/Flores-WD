@@ -15,6 +15,7 @@ class HomeController {
     
     $mensaje = null;
 
+
     if($_SERVER['REQUEST_METHOD'] === 'POST') {
 
       $respuestas = $_POST['contacto'];
@@ -27,8 +28,8 @@ class HomeController {
       $mail->Mailer= "smtp";
       $mail->SMTPAuth = true;
       $mail->Port = 587;
-      $mail->Username = 'agustinmatiasf@gmail.com';
-      $mail->Password = 'ezbcgprfovwvintp';
+      $mail->Username = $_ENV['EMAIL'];
+      $mail->Password = $_ENV['PASSWORD'];
       $mail->Priority = 1;
       $mail->SMTPSecure = 'tls';
 
