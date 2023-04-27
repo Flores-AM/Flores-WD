@@ -1,7 +1,7 @@
-<nav class="nav" data-aos="fade-right">
-  <p data-paso='1' class="enlace actual selector nav1">About</p>
-  <p data-paso='2' class="enlace selector nav2">Projects</p>
-  <p data-paso='3'class="enlace selector nav3">Contact</p>
+<nav class="nav">
+  <p data-paso='1' class="enlace actual selector nav1" data-aos="fade-right" data-aos-duration="2000">About</p>
+  <p data-paso='2' class="enlace selector nav2" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">Projects</p>
+  <p data-paso='3'class="enlace selector nav3" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="800">Contact</p>
   <div id="marker"></div>
   <div id="marker2"></div>
 </nav>
@@ -22,14 +22,14 @@
 </div>
 
 <section class="contenedor">
-  <h1 class="fondo f-ds">Flores</h1>
-  <h1 class="fondo f-cel">AM</h1>
+  <h1 class="fondo f-ds" data-aos="zoom-in" data-aos-duration="1500">Flores</h1>
+  <h1 class="fondo f-cel" data-aos="zoom-in" data-aos-duration="1500">AM</h1>
 
   <div class="caja-de-pasos">
 
     <div class="contenedor pasos" id="paso-1">
   
-      <div class="caja-glitch">
+      <div class="caja-glitch" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="800">
         <ul>
           <div class="glitch" data-text="hi, im agustin">hi, im agustin</div>
           <div class="glitch" data-text="front-end web developer">front-end web developer</div>
@@ -43,7 +43,7 @@
       </div>
   
       <div class="me">
-        <div class="svg html activo">
+        <div class="svg html activo" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="1000">
           <svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
               <filter id="btn">
@@ -74,7 +74,7 @@
             </span>
           </button>
         </div>
-        <div class="svg css">
+        <div class="svg css" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="1200">
           <svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
               <filter id="btn">
@@ -105,7 +105,7 @@
             </span>
           </button>
         </div>
-        <div class="svg js">
+        <div class="svg js" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="1400">
           <svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
               <filter id="btn">
@@ -137,7 +137,7 @@
             </span>
           </button>
         </div>
-        <div class="svg php">
+        <div class="svg php" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="1600">
           <svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
               <filter id="btn">
