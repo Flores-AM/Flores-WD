@@ -32,8 +32,8 @@ class HomeController {
       $mail->Mailer= "smtp";
       $mail->SMTPAuth = true;
       $mail->Port = 587;
-      $mail->Username = $_ENV['EMAIL'];
-      $mail->Password = $_ENV['PASSWORD'];
+      $mail->Username = '$_ENV["EMAIL"]';
+      $mail->Password = '$_ENV["PASSWORD"]';
       $mail->Priority = 1;
       $mail->SMTPSecure = 'tls';
 
