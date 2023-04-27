@@ -23,7 +23,7 @@
 
 <section class="contenedor">
   <h1 class="fondo f-ds">Flores</h1>
-  <h1 class="fondo f-cel">FWD</h1>
+  <h1 class="fondo f-cel">AM</h1>
 
   <div class="caja-de-pasos">
 
