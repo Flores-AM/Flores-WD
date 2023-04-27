@@ -43,7 +43,7 @@
       </div>
   
       <div class="me">
-        <div class="svg html activo" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="1000">
+        <div class="svg html activo" data-aos="zoom-in-up" data-aos-offset="-100" data-aos-duration="1500" data-aos-delay="1000">
           <svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
               <filter id="btn">
@@ -74,7 +74,7 @@
             </span>
           </button>
         </div>
-        <div class="svg css" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="1200">
+        <div class="svg css" data-aos="zoom-in-up" data-aos-offset="-100" data-aos-duration="1500" data-aos-delay="1200">
           <svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
               <filter id="btn">
@@ -105,7 +105,7 @@
             </span>
           </button>
         </div>
-        <div class="svg js" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="1400">
+        <div class="svg js" data-aos="zoom-in-up" data-aos-offset="-100" data-aos-duration="1500" data-aos-delay="1400">
           <svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
               <filter id="btn">
@@ -137,7 +137,7 @@
             </span>
           </button>
         </div>
-        <div class="svg php" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="1600">
+        <div class="svg php" data-aos="zoom-in-up" data-aos-offset="-100" data-aos-duration="1500" data-aos-delay="1600">
           <svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
               <filter id="btn">
