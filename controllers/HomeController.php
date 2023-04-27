@@ -2,11 +2,6 @@
 
 namespace Controllers;
 
-use Dotenv;
-require __DIR__ . '/../vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->safeLoad();
-
 use MVC\Router;
 use PHPMailer\PHPMailer\PHPMailer;
 
@@ -20,6 +15,8 @@ class HomeController {
     
     $mensaje = null;
 
+    $email = 'agustinmatiasf@gmail.com';
+    $pass = 'ezbcgprfovwvintp';
 
     if($_SERVER['REQUEST_METHOD'] === 'POST') {
 
@@ -33,8 +30,8 @@ class HomeController {
       $mail->Mailer= "smtp";
       $mail->SMTPAuth = true;
       $mail->Port = 587;
-      $mail->Username = $_ENV['EMAIL'];
-      $mail->Password = $_ENV['PASSWORD'];
+      $mail->Username = $email;
+      $mail->Password = $pass;
       $mail->Priority = 1;
       $mail->SMTPSecure = 'tls';
 
