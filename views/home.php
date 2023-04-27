@@ -22,8 +22,8 @@
 </div>
 
 <section class="contenedor">
-  <h1 class="fondo f-ds" data-aos="zoom-in" data-aos-duration="1500">Flores</h1>
-  <h1 class="fondo f-cel" data-aos="zoom-in" data-aos-duration="1500">AM</h1>
+  <h1 class="fondo f-ds">Flores</h1>
+  <h1 class="fondo f-cel">AM</h1>
 
   <div class="caja-de-pasos">
 
