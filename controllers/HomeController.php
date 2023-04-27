@@ -2,6 +2,10 @@
 
 namespace Controllers;
 
+use Dotenv;
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->safeLoad();
+
 use MVC\Router;
 use PHPMailer\PHPMailer\PHPMailer;
 
